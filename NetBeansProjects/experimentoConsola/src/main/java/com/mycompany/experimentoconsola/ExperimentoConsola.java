@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Scanner; //libreria para el scanner
 /**
  *
- * @author marco
+ * @author marcoFortonOchoa
  */
 public class ExperimentoConsola {
 
