@@ -3,10 +3,10 @@
  */
 
 package com.mycompany.experimentoconsola;
-
+//linea creada después del commit y despues del push 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+import java.util.Scanner; //libreria para el scanner
 /**
  *
  * @author marco
