@@ -12,7 +12,6 @@ import java.util.Scanner;
  * @author marcoFortonOchoa
  */
 public class ExperimentoConsola {
-
     public static void main(String[] args) {
         System.out.println("Hello World!");
         System.out.println("Ingrese una cadena de palabras, puede ser nula: ");
