@@ -19,14 +19,14 @@ public class ExperimentoConsola {
         Scanner teclado = new Scanner(System.in);
         //El texto a probar sera: Mark-Toninooo Fort__Ochoaa!!
         String frase = teclado.nextLine();
-        System.out.println("has escrito: "+frase);
+        //System.out.println("has escrito: "+frase);
         //teclado.nextLine();
 //        System.out.println("Ingrese otra frase: ");
 //        String frase1 = teclado.nextLine();
 //        System.out.println("Has escrito: "+frase1);
         
         int longitud = frase.length();
-        System.out.println("La long de la frase es: "+longitud);
+        //System.out.println("La long de la frase es: "+longitud);
         //String palabraAux = "";
         ArrayList listaPalMay5 = new  ArrayList <String>();
         StringBuilder sb = new StringBuilder();
@@ -36,7 +36,7 @@ public class ExperimentoConsola {
             if(Character.isLetter(letraAux)){
                 sb.append(letraAux);
                 //supuestamente he agregado la letra a la palabra.
-                System.out.println("linea 37 sb es: "+sb.toString());
+                //System.out.println("linea 37 sb es: "+sb.toString());
                 if((cont+1)==longitud&&sb.length()>=5){
                     listaPalMay5.add(sb.substring(0));
                 }
@@ -44,12 +44,12 @@ public class ExperimentoConsola {
                 if(sb.length()>=5){
                     listaPalMay5.add(sb.substring(0));
                     //aqui es cuando la palabra es larga
-                    System.out.println("linea 42 listaPalMay5 es: "+listaPalMay5.toString());
+                    //System.out.println("linea 42 listaPalMay5 es: "+listaPalMay5.toString());
                 }else{
                     //letraAux es - y sb es Mark
                     //aqui es cuando es corta la palabra. Se vacia sb
                     //sb.setLength(0);
-                    System.out.println("sb aquí debe vaciarse: "+sb.toString());
+                    //System.out.println("sb aquí debe vaciarse: "+sb.toString());
                 }
                 sb.setLength(0);
             }
