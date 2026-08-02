@@ -30,6 +30,7 @@ public class ExperimentoConsola {
             }else{
                 if(sb.length()>=5){
                     listaPalMay5.add(sb.substring(0));
+                }
                 sb.setLength(0);
             }
         }
